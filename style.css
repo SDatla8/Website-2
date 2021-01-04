@@ -1,0 +1,21 @@
+.flexing {
+  display: flex;
+  flex-wrap: wrap;
+  border: 2px solid orange;
+  justify-content: space-evenly;
+}
+.games img {
+  opacity: 1;
+}
+.games img:hover {
+  opacity: 0.5;
+}
+.homepage img {
+  border-radius: 100%;
+  max-width: 100%;
+  max-height: 100%;
+}
+.page {
+  display: flex;
+  justify-content: space-evenly;
+}
